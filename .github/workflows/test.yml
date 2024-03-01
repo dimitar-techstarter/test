@@ -12,7 +12,8 @@ on:
         default: "dev"
 
 jobs:
-  build:
+  sample:
+    environment: "${{ github.event.inputs.environment }}"
     runs-on: ubuntu-latest
 
     steps:
