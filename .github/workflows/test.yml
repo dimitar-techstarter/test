@@ -26,3 +26,4 @@ jobs:
       #    aws-region: eu-central-1
 
       - run: echo "${{ github.event.inputs.environment }}"
+      - run: echo "${{ secrets.DATABASE_NAME }}"
