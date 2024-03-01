@@ -8,6 +8,8 @@ on:
     inputs:
       environment:
         type: environment
+        required: true
+        default: "dev"
 
 jobs:
   build:
