@@ -25,4 +25,4 @@ jobs:
 
       - run: echo "${{ inputs.environment }}"
       - run: echo "${{ secrets.DATABASE_NAME }}"
-      - run: echo "${{ env.DESCRIPTION }}"
+      - run: echo "${{ vars.DESCRIPTION }}"
